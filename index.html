@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ETF vs acción: la historia de Ana</title>
+<style>
+:root{--bg:#fafaf7;--fg:#1d2330;--mut:#5d6677;--card:#fff;--bd:#dfe2e8;--ac:#1d2330;--g:#2f8f5b;--r:#c0453f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171d;--fg:#eceef2;--mut:#9aa3b2;--card:#1d222b;--bd:#323946;--ac:#eceef2;--g:#52c284;--r:#ef7a74}}
+:root[data-theme="dark"]{--bg:#14171d;--fg:#eceef2;--mut:#9aa3b2;--card:#1d222b;--bd:#323946;--ac:#eceef2;--g:#52c284;--r:#ef7a74}
+html{scroll-padding-top:70px;scroll-behavior:smooth}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:860px;margin:0 auto;padding:0 16px 48px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:8px 0;border-bottom:1px solid var(--bd);display:flex;gap:6px;align-items:center;overflow-x:auto;z-index:5}
+nav a{flex:none;width:32px;height:32px;border-radius:50%;border:1px solid var(--bd);display:grid;place-items:center;text-decoration:none;color:var(--fg);font-size:.9rem}
+nav a.on{background:var(--ac);color:var(--bg)}nav span{font-size:.8rem;color:var(--mut);margin-right:4px;flex:none}
+h1{font-size:1.7rem;line-height:1.2;margin:.8em 0 .3em}h2{font-size:1.3rem;margin:.1em 0 .4em}p{margin:.4em 0}section{padding-top:28px}
+.mut{color:var(--mut)}.sm{font-size:.88rem}.ch{font-size:.8rem;color:var(--mut);text-transform:uppercase;letter-spacing:.06em;margin:0}
+.ana{background:var(--card);border:1px solid var(--bd);border-left:5px solid var(--ac);border-radius:10px;padding:10px 14px;font-style:italic}
+.next{margin-top:14px;font-weight:600;color:var(--mut)}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 16px;margin:10px 0}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.two .card{margin:0}.big{font-size:2rem}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.9rem;min-width:500px}td,th{border-bottom:1px solid var(--bd);padding:7px 8px;text-align:left;vertical-align:top}
+button,select,input[type=number]{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--bd);border-radius:999px;padding:7px 14px;margin:3px 4px 3px 0}button{cursor:pointer}button.on{background:var(--ac);color:var(--bg)}
+.row{display:grid;grid-template-columns:96px 1fr 50px;gap:8px;align-items:center;margin:6px 0}.row input{width:100%}
+.res{font-weight:700}.pos{color:var(--g)}.neg{color:var(--r)}
+.pyr{display:flex;flex-direction:column;align-items:center;gap:6px;margin:12px 0}
+.lv{border:0;border-radius:10px;color:#fff;padding:12px 8px;text-align:center;font-weight:600;margin:0}.lv.on{outline:3px solid var(--fg);outline-offset:2px;background-color:inherit}
+.tag{display:inline-block;background:var(--bg);border:1px solid var(--bd);border-radius:6px;padding:1px 8px;margin:2px 3px 2px 0;font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}.grid .card{margin:0}.warn{border-left:5px solid var(--r)}
+</style></head><body><main>
+<nav id="nv"><span>Capítulos</span></nav>
+<p class="mut sm" style="margin-top:14px">Educación financiera · Lo básico</p>
+<h1>ETF vs acción: la historia de Ana</h1>
+<p>Ana quiere invertir sus primeros <b>US$1,000</b> en la bolsa de EE. UU. y no sabe por dónde empezar. Acompáñala: en cada capítulo resuelve una pregunta, y cada respuesta lleva a la siguiente.</p>
+
+<section id="c1"><p class="ch">Capítulo 1 de 8</p><h2>Una fruta o una canasta</h2>
+<p class="ana">💬 Un amigo le dice: "compra una acción". Otro: "compra un ETF". ¿Qué es cada cosa?</p>
+<div class="two"><div class="card"><div class="big">🍎</div><b>Una acción</b> es <b>una fruta</b>: un pedacito de <i>una sola</i> empresa. Si esa fruta se daña, pierdes bastante.</div>
+<div class="card"><div class="big">🧺</div><b>Un ETF</b> es <b>una canasta de frutas</b>: un solo producto que contiene <i>muchas</i> acciones (u otros activos). Si una se daña, las demás amortiguan.</div></div>
+<p class="sm mut">ETF viene de <i>Exchange Traded Fund</i>: un fondo que se compra y vende en la bolsa igual que una acción.</p>
+<div class="card tbl"><table><tr><th></th><th>🍎 Acción</th><th>🧺 ETF</th></tr>
+<tr><td><b>Qué compras</b></td><td>Un pedacito de una empresa</td><td>Una canasta de muchos activos</td></tr>
+<tr><td><b>Si una empresa falla</b></td><td>Pierdes mucho</td><td>El golpe se reparte</td></tr>
+<tr><td><b>Qué mueve su precio</b></td><td>Esa empresa: resultados y noticias</td><td>Lo que contiene</td></tr>
+<tr><td><b>Qué analizar</b></td><td>El negocio, las finanzas, la valoración</td><td>Qué contiene, cuánto cobra, qué tan concentrada está</td></tr></table></div>
+<p class="next">Siguiente pregunta → ¿Qué hay exactamente dentro de la canasta?</p></section>
+
+<section id="c2"><p class="ch">Capítulo 2 de 8</p><h2>Qué hay dentro: el índice</h2>
+<p class="ana">💬 "Este ETF sigue un índice", le dicen. ¿Qué es un índice?</p>
+<p>Un <b>índice</b> es una lista de empresas con reglas claras. Por ejemplo, el <b>S&amp;P 500</b> reúne ~500 grandes empresas de EE. UU. Un ETF como <b>VOO</b> o <b>SPY</b> simplemente <b>copia esa lista</b>: compra las mismas empresas, en las mismas proporciones.</p>
+<p><b>Ojo con las proporciones.</b> En la mayoría de índices, las empresas <b>más grandes pesan más</b> (ponderación por tamaño). Por eso un ETF de 500 empresas puede depender mucho de unas pocas. Lo verás en el siguiente capítulo.</p>
+<p class="next">Siguiente pregunta → Si Ana compra el ETF, ¿por qué sube o baja?</p></section>
+
+<section id="c3"><p class="ch">Capítulo 3 de 8</p><h2>Por qué un ETF sube o baja</h2>
+<p class="ana">💬 Un mes después, su ETF cambió de precio. ¿Por qué?</p>
+<p>Un ETF no tiene vida propia: <b>sube y baja con lo que contiene</b>. Esta canasta tiene 5 empresas. Mueve los controles y compara.</p>
+<div class="card"><div><button data-m="0" class="on">Peso igual (20% c/u)</button><button data-m="1">Peso por tamaño</button></div><div id="sl"></div>
+<p><span class="sm">Si Ana hubiera comprado solo:</span> <select id="pick"></select></p>
+<p>Con US$1,000 → 🧺 ETF: <span id="r1" class="res"></span> · 🍎 Solo esa acción: <span id="r2" class="res"></span></p>
+<div><button data-p="a">Una empresa se hunde</button><button data-p="b">Todas suben</button><button data-p="c">Mercado mixto</button><button data-p="z">Reiniciar</button></div>
+<p class="sm mut" id="msg"></p></div>
+<p class="sm mut">Pesos y precios ilustrativos. Prueba hundir la Empresa A con peso por tamaño: la canasta sufre más, porque esa empresa es grande.</p>
+<p class="next">Siguiente pregunta → ¿Todos los ETF son iguales? ¿Cómo se ordena todo?</p></section>
+
+<section id="c4"><p class="ch">Capítulo 4 de 8</p><h2>La pirámide y los tipos de ETF</h2>
+<p class="ana">💬 Ana ve cientos de ETF y también acciones y cripto. ¿Cómo se ordena todo?</p>
+<p>Una forma: de lo más amplio a lo más específico. <b>Mientras más bajas, más riesgo y más conocimiento necesitas.</b> Toca cada nivel.</p>
+<div class="pyr" id="pyr"></div><div class="card" id="pd"></div>
+<p class="sm mut">Riesgo y conocimiento son relativos dentro de la pirámide. Incluso el primer nivel puede caer.</p>
+<p><b>Tipos de ETF que existen:</b></p><div class="grid" id="types"></div>
+<p class="next">Siguiente pregunta → ¿Cuánto cuesta tener un ETF?</p></section>
+
+<section id="c5"><p class="ch">Capítulo 5 de 8</p><h2>El costo silencioso</h2>
+<p class="ana">💬 Dos ETF parecidos: uno cobra 0.05% al año y otro 0.75%. "Es poquito", piensa Ana. ¿Lo es?</p>
+<p>Ese cobro anual se llama <b>expense ratio</b> y se descuenta del valor del ETF sin que lo notes. Calcula el efecto a largo plazo (supone un rendimiento bruto de 7% anual, solo como ejemplo).</p>
+<div class="card"><p>Monto inicial (US$): <input type="number" id="mo" value="10000" min="100" step="100" style="width:120px"></p>
+<p>Años: <input type="range" id="yr" min="5" max="40" value="20"> <b id="yv">20</b></p>
+<p>ETF barato: <select id="fa"><option>0.05</option><option>0.10</option><option>0.20</option></select>% · ETF caro: <select id="fb"><option>0.75</option><option>0.50</option><option>1.00</option></select>%</p>
+<p>Barato: <b id="va"></b> · Caro: <b id="vb"></b></p><p id="vd" class="res neg"></p></div>
+<p class="next">Siguiente pregunta → ¿Qué puede salir mal?</p></section>
+
+<section id="c6"><p class="ch">Capítulo 6 de 8</p><h2>Los riesgos reales</h2>
+<p class="ana">💬 "¿Entonces un ETF es seguro?" Casi nunca lo es.</p>
+<div class="grid"><div class="card warn"><b>Un ETF también cae</b><p class="sm">Un ETF del mercado amplio cae cuando cae el mercado. Uno sectorial o temático puede caer mucho más.</p></div>
+<div class="card warn"><b>Concentración</b><p class="sm">Si pesan más las empresas grandes, unas pocas pueden mover todo el ETF (capítulo 3).</p></div>
+<div class="card warn"><b>Overlap</b><p class="sm">Tres ETF distintos pueden repetir las mismas empresas. Parece que diversificas, pero no.</p></div>
+<div class="card warn"><b>Apalancados e inversos</b><p class="sm">Multiplican o invierten el movimiento diario. Pueden perder mucho rápido: no son para principiantes.</p></div></div>
+<p class="next">Siguiente pregunta → ¿Cómo lo compra Ana?</p></section>
+
+<section id="c7"><p class="ch">Capítulo 7 de 8</p><h2>Cómo se compra</h2>
+<p class="ana">💬 Ana ya entendió. Ahora, ¿cómo lo hace en la práctica?</p>
+<div class="card"><p><b>1.</b> Abre una cuenta en un broker que dé acceso a la bolsa de EE. UU.</p><p><b>2.</b> Busca el <b>ticker</b> del ETF (por ejemplo, VOO).</p><p><b>3.</b> Elige cuánto invertir.</p><p><b>4.</b> Compra en horario de bolsa, igual que una acción.</p></div>
+<div class="two"><div class="card"><b>Glosario mínimo</b><p class="sm"><b>Ticker:</b> el código del fondo en la bolsa.<br><b>Expense ratio:</b> su costo anual.<br><b>AUM:</b> cuánto dinero administra el fondo.<br><b>Dividendos:</b> la mayoría de los ETF de EE. UU. los reparten; tú decides si los reinviertes.</p></div>
+<div class="card warn"><b>Ojo con los impuestos</b><p class="sm">Si vives fuera de EE. UU., los dividendos de ETF estadounidenses pueden tener retenciones y reglas para no residentes, que cambian según tu país. Confírmalo con un profesional.</p></div></div>
+<p class="next">Último capítulo → Juntar todo.</p></section>
+
+<section id="c8"><p class="ch">Capítulo 8 de 8</p><h2>Cierre: núcleo, satélites y repaso</h2>
+<p class="ana">💬 ¿Qué hace Ana con sus US$1,000?</p>
+<div class="card"><p><b>Núcleo y satélites.</b> Una base diversificada (un ETF amplio) y, aparte, apuestas más pequeñas: sectores, temas o acciones individuales. Una mala apuesta no define todo.</p></div>
+<p><b>Repaso rápido: ¿ETF, acción o ambos?</b></p>
+<div class="card"><p id="qq" class="res"></p><div id="qb"></div><p id="qf" class="sm"></p><p class="sm mut" id="qs"></p></div>
+<p class="mut sm">Material educativo, no es asesoría financiera personalizada. Los fondos mencionados son ejemplos, no recomendaciones.</p></section>
+
+<script>
+var N=['Empresa A','Empresa B','Empresa C','Empresa D','Empresa E'],W=[[20,20,20,20,20],[45,25,15,10,5]],V=[0,0,0,0,0],mode=0;
+function fm(x){return (x>0?'+':'')+x.toFixed(1)+'%'}function cl(e,x){e.className='res '+(x>0?'pos':x<0?'neg':'')}
+function draw(){document.getElementById('sl').innerHTML=N.map(function(n,i){return '<div class="row"><span class="sm">'+n+' ('+W[mode][i]+'%)</span><input type="range" min="-50" max="50" value="'+V[i]+'" data-i="'+i+'" aria-label="'+n+'"><b id="v'+i+'"></b></div>'}).join('');
+document.querySelectorAll('#sl input').forEach(function(x){x.oninput=function(){V[+x.dataset.i]=+x.value;upd()}});upd()}
+document.getElementById('pick').innerHTML=N.map(function(n,i){return '<option value="'+i+'"'+(i==2?' selected':'')+'>'+n+'</option>'}).join('');
+function upd(){var s=0;V.forEach(function(v,i){s+=v*W[mode][i]/100;var e=document.getElementById('v'+i);e.textContent=(v>0?'+':'')+v+'%';cl(e,v)});
+var k=V[+document.getElementById('pick').value],a=document.getElementById('r1'),b=document.getElementById('r2');
+a.textContent=fm(s)+' → US$'+Math.round(1000*(1+s/100));b.textContent=fm(k)+' → US$'+Math.round(1000*(1+k/100));cl(a,s);cl(b,k);
+document.getElementById('msg').textContent=Math.abs(k-s)<.05?'La canasta se mueve con el promedio ponderado de lo que contiene.':(k<s?'La acción sola rindió peor: la canasta amortiguó.':'La acción sola rindió mejor, pero pudo ser al revés: es una sola apuesta.')}
+document.getElementById('pick').onchange=upd;
+document.querySelectorAll('[data-m]').forEach(function(b){b.onclick=function(){mode=+b.dataset.m;document.querySelectorAll('[data-m]').forEach(function(x){x.className=x==b?'on':''});draw()}});
+var P={a:[10,10,-40,5,10],b:[8,12,10,15,5],c:[20,-15,10,-5,15],z:[0,0,0,0,0]};
+document.querySelectorAll('[data-p]').forEach(function(b){b.onclick=function(){var p=b.dataset.p;V=p=='a'?[-40,10,10,5,10]:P[p].slice();draw()}});draw();
+
+var L=[['Mercado','Mercado amplio','ETF que compran todo un mercado o índice.','VOO y SPY (S&P 500), QQQ (Nasdaq-100).','La base del portafolio: un pedacito de toda la economía.',1,'hsl(150,45%,36%)',100],
+['Sectores','Sectores','ETF de uno de los 11 sectores de la bolsa.','XLK (tecnología), XLV (salud), XLU (servicios públicos).','Apuestas a un tipo de negocio; debes saber qué lo mueve.',2,'hsl(95,40%,38%)',84],
+['Industrias / temáticas','Industrias y temáticas','ETF de una industria o una tendencia.','SMH (semiconductores), DTCR (data centers).','Menos empresas, más concentración y más dependencia de la tendencia.',3,'hsl(45,60%,38%)',68],
+['Acciones','Acciones individuales','Una sola empresa.','Apple, Walmart, JPMorgan.','Sin canasta que amortigüe: hay que analizar el negocio, las finanzas y la valoración.',4,'hsl(22,65%,42%)',52],
+['Cripto y otros','Cripto y otros activos','Criptomonedas, materias primas y otros.','Bitcoin, Ethereum.','Mucha volatilidad y sin ganancias que analizar como en una empresa. Exige el mayor conocimiento y tolerancia al riesgo.',5,'hsl(2,60%,44%)',36]];
+var M=function(n){return '●'.repeat(n)+'○'.repeat(5-n)};
+document.getElementById('pyr').innerHTML=L.map(function(l,i){return '<button class="lv" data-i="'+i+'" style="background:'+l[6]+';width:'+l[7]+'%">'+(i+1)+'. '+l[0]+'</button>'}).join('');
+function pd(i){var l=L[i];document.querySelectorAll('.lv').forEach(function(b,j){b.className='lv'+(j==i?' on':'')});
+document.getElementById('pd').innerHTML='<b>'+l[1]+'</b><p>'+l[2]+'</p><p><b>Ejemplos:</b> '+l[3]+'</p><p>'+l[4]+'</p><p class="sm">Riesgo y conocimiento necesario: <span style="letter-spacing:2px">'+M(l[5])+'</span></p>'}
+document.querySelectorAll('.lv').forEach(function(b){b.onclick=function(){pd(+b.dataset.i)}});pd(0);
+var T=[['Índice amplio','Siguen un mercado entero.','VOO, SPY, QQQ'],['Sectoriales','Un sector de la economía.','XLK, XLV, XLU'],['Temáticos','Una tendencia: IA, energía, ciberseguridad.','DTCR, VOLT'],['De dividendos','Empresas que reparten dividendos.','Varios'],['De bonos','Deuda de gobiernos o empresas; suelen moverse menos.','Varios'],['Materias primas','Oro, petróleo y otros.','Varios'],['Internacionales','Mercados fuera de EE. UU.','SPDW, VWO'],['Apalancados e inversos','Multiplican o invierten el movimiento diario.','No para principiantes']];
+document.getElementById('types').innerHTML=T.map(function(t,i){return '<div class="card'+(i==7?' warn':'')+'"><b>'+t[0]+'</b><p class="sm">'+t[1]+'</p><span class="tag">'+t[2]+'</span></div>'}).join('');
+
+function fv(){var m=+document.getElementById('mo').value||0,y=+document.getElementById('yr').value,a=+document.getElementById('fa').value,b=+document.getElementById('fb').value;
+document.getElementById('yv').textContent=y;var A=m*Math.pow(1+(7-a)/100,y),B=m*Math.pow(1+(7-b)/100,y),f=function(x){return 'US$'+Math.round(x).toLocaleString('en-US')};
+document.getElementById('va').textContent=f(A);document.getElementById('vb').textContent=f(B);document.getElementById('vd').textContent='Diferencia: '+f(A-B)+' menos con el ETF caro ('+((A-B)/A*100).toFixed(0)+'% del resultado)'}
+['mo','yr','fa','fb'].forEach(function(id){document.getElementById(id).oninput=fv;document.getElementById(id).onchange=fv});fv();
+
+var Q=[['Contiene cientos de empresas en un solo producto','ETF','Un ETF es una canasta.'],['Su precio depende de los resultados de una sola empresa','Acción','Una acción es un pedacito de una empresa.'],['Cobra una comisión anual (expense ratio)','ETF','Es el costo de administrar la canasta.'],['Se compra en el broker, en horario de bolsa, con un ticker','Ambos','Los dos cotizan en la bolsa.'],['Puede caer mucho si es muy específico o concentrado','Ambos','Ninguno es seguro: depende de qué contenga.']],qi=0,qs=0;
+function qz(){var q=Q[qi];if(!q){document.getElementById('qq').textContent='Acertaste '+qs+' de '+Q.length;document.getElementById('qb').innerHTML='<button id="qr">Repetir</button>';document.getElementById('qr').onclick=function(){qi=0;qs=0;document.getElementById('qf').textContent='';qz()};document.getElementById('qs').textContent='';return}
+document.getElementById('qq').textContent=q[0];document.getElementById('qs').textContent='Pregunta '+(qi+1)+' de '+Q.length;
+document.getElementById('qb').innerHTML=['ETF','Acción','Ambos'].map(function(o){return '<button data-o="'+o+'">'+o+'</button>'}).join('');
+document.querySelectorAll('#qb button').forEach(function(b){b.onclick=function(){var ok=b.dataset.o==q[1];if(ok)qs++;document.getElementById('qf').textContent=(ok?'✅ ':'❌ Era '+q[1]+'. ')+q[2];qi++;setTimeout(qz,1400)}})}
+qz();
+
+var nv=document.getElementById('nv');for(var c=1;c<=8;c++)nv.insertAdjacentHTML('beforeend','<a href="#c'+c+'" id="n'+c+'">'+c+'</a>');
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){document.querySelectorAll('nav a').forEach(function(a){a.className=a.id=='n'+e.target.id.slice(1)?'on':''})}})},{rootMargin:'-20% 0px -70% 0px'});
+document.querySelectorAll('section').forEach(function(s){io.observe(s)});
+</script></main></body></html>
